@@ -1,6 +1,6 @@
-SPRINGRTS_GIT_URL="https://github.com/beyond-all-reason/spring"
+SPRINGRTS_GIT_URL="https://github.com/Karolson/spring"
 SPRINGRTS_AUX_URL_PREFIX="https://github.com/beyond-all-reason"
-BRANCH_NAME="BAR105"
+BRANCH_NAME="docker"
 PLATFORM="windows-64"
 DUMMY=
 ENABLE_CCACHE=1

@@ -32,7 +32,7 @@ elif [ "${PLATFORM}" == "linux-64" ]; then
 fi
 
 if [ ! -d "${LIBS_DIR}/.git" ]; then
-    git clone "${SPRINGRTS_AUX_URL_PREFIX}${LIBS_DIR}.git" -b "${LIBS_BRANCH}" --depth 1 "$LIBS_DIR"
+    git clone "${SPRINGRTS_AUX_URL_PREFIX}${LIBS_DIR}.git" -b "${LIBS_BRANCH}" "$LIBS_DIR"
 else
     cd "${LIBS_DIR}"
     git pull
